@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
+
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Alamat : <input type="text" name="alamat"></p>
+            <p>Password : <input type="password" name="pass"></p>
+        <p>
+            Jenis Kelamin : 
+            <input type="radio" name="jk" value="laki-laki" checked />
+                Laki-laki
+            <input type="radio" name="jk" value="perempuan" />
+                Perempuan
+        </p>
+        <p>
+            Keahlian yang dikuasai : <br>
+                <input type="checkbox" name="Pemrograman" > Pemrograman
+                <input type="checkbox" name="Jaringan" > Jaringan
+                <input type="checkbox" name="Data" > Data               
+        </p>
+        <p>
+            Kota asal :
+            <select>
+                <option>Bengkulu</option>
+                <option>Yogyakarta</option>
+                <option>Makasar</option>
+                <option>Solo</option>
+            </select>
+        </p>
+        <p>
+            Apa yang menarik dari diri anda? :<br>
+            <textarea roes='10' cols='60' placeholder="Tulis jawaban Anda di sini"></textarea>
+        </p>
+        <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
